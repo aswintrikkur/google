@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://127.0.0.1:5500/google-webpage/Google-home.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="./Google_files/Google-style.css" type="text/css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+             <div class="headlink">   
+                <a href="https://www.gmail.com/"><button style="background: none; border: none;">Gmail</button></a>
+                <a href="https://www.google.co.in/imghp?hl=en&amp;ogbl"><button style="background: none; border: none;">Images</button></a>
+             </div>
+             <div class="headimg">   
+                <button style="background: none; border: none;"><img src="./Google_files/Google apps.jpg" alt=""></button>
+                <button style="background: none; border: none;"><img src="./Google_files/Google-accound.jpg" alt=""></button>
+             </div>   
+
+        </div>
+        <div class="body">
+
+                <a href="http://www.google.com/"> <img class="google" src="./Google_files/google.jpg" alt=""> </a>
+            <br><br>
+            <input type="search" style="width:600px; height: 45px; border-radius: 25px; border-color: lightgray;
+             font-size: larger; color: white;  background:transparent ;">
+             <img class="search" src="./Google_files/Search-Button-PNG-HD-Quality.png" style="width: 22px;" alt="">
+            
+             <div class="buttons">
+
+                <button> Google Search </button>
+                <button> I'm Feeling Lucky </button>                
+             </div>
+             <div class="language">
+                <p>Google offered in:
+                
+                    <a href="http://127.0.0.1:5500/google-webpage/Google-home.html">हिन्दी</a>
+                    <a href="http://127.0.0.1:5500/google-webpage/Google-home.html">বাংলা</a>
+                    <a href="http://127.0.0.1:5500/google-webpage/Google-home.html">తెలుగు</a>
+                    <a href="http://127.0.0.1:5500/google-webpage/Google-home.html">मराठी</a>
+                    <a href="http://127.0.0.1:5500/google-webpage/Google-home.html">தமிழ்</a>
+                    <a href="http://127.0.0.1:5500/google-webpage/Google-home.html">ગુજરાતી</a>
+                    <a href="http://127.0.0.1:5500/google-webpage/Google-home.html">ಕನ್ನಡ</a>
+                    <a href="http://127.0.0.1:5500/google-webpage/Google-home.html">മലയാളം</a>
+                    <a href="http://127.0.0.1:5500/google-webpage/Google-home.html">ਪੰਜਾਬੀ</a>
+                 </p>
+               
+             </div>
+        
+        
+        </div>
+
+        <div class="footer">
+            <div class="footer1">
+                <br>
+                <p>India</p>
+
+            </div>
+            <div class="footer2">
+                <br>
+                <button>About</button>
+                <button>Advertising</button>
+                <button>Business</button>
+                <button>How Search works</button>
+                
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
